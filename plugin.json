@@ -1,0 +1,12 @@
+{
+	"id": "nodebb-plugin-google-forms",
+	"name": "NodeBB Plugin Google Forms",
+	"description": "📝 A plugin for NodeBB to embed Google Forms in posts.",
+	"url": "https://github.com/madhavarshney/nodebb-plugin-google-forms",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "filter:parse.post", "method": "parse", "priority": 6
+		}
+	]
+}
