@@ -2,7 +2,8 @@
 
 This NodeBB plugin allows embedding Google Forms in forum posts. 📝
 
-![Demo of Google Forms plugin for NodeBB](docs/demo.gif)
+<img width="79%" src="docs/demo.gif" alt="Demo of Google Forms plugin for NodeBB on desktop" />
+<img width="19%" src="docs/demo-mobile.gif" alt="Demo of Google Forms plugin for NodeBB on mobile" />
 
 ## Installation
 
