@@ -5,9 +5,9 @@
   "repository": "https://github.com/madhavarshney/nodebb-plugin-google-forms",
   "author": "Madhav Varshney <madhavarshney@gmail.com> (https://github.com/madhavarshney/)",
   "license": "MIT",
-  "main": "library.js",
+  "main": "src/library.js",
   "scripts": {
-    "test": "echo \"No test specified.\""
+    "test": "echo \"No tests yet!\""
   },
   "nbbpm": {
     "compatibility": "^1.0.0"

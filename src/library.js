@@ -1,6 +1,6 @@
-var embedURL = '<iframe src="https://docs.google.com/forms/d/$1/viewform?$2"'
-    + 'width="100%" height="450px" style="max-width: 100%" frameborder="0"'
-    + 'marginheight="0" marginwidth="0">Google Form...</iframe>';
+var styles = 'width: 100%; height: 450px; border: none;';
+var embedURL = 'https://docs.google.com/forms/d/$1/viewform?$2';
+var embedContent = '<iframe src="' + embedURL + '" style="' + styles + '">Google Form...</iframe>';
 var urlRegexp = /<a href="(?:https?:\/\/)?(?:docs\.google\.com)\/forms\/d\/(.+)\/viewform\?*(.*)>.+<\/a>/g;
 
 var GFormsPlugin = {
@@ -9,7 +9,7 @@ var GFormsPlugin = {
             return callback(null, data);
         }
         if (data.postData.content.match(urlRegexp)) {
-            data.postData.content = data.postData.content.replace(urlRegexp, embedURL);
+            data.postData.content = data.postData.content.replace(urlRegexp, embedContent);
         }
         callback(null, data);
     }
