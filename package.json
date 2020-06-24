@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-google-forms",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "📝 A plugin for NodeBB to embed Google Forms in posts.",
   "repository": "https://github.com/madhavarshney/nodebb-plugin-google-forms",
   "author": "Madhav Varshney <madhavarshney@gmail.com> (https://github.com/madhavarshney/)",
