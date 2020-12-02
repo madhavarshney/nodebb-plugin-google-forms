@@ -19,7 +19,7 @@ When creating a post, paste the URL of the Google Form. This plugin will embed t
 
 Compatability: NodeBB v1.0.0+
 
-Tested on: NodeBB v1.10.1, v1.13.3
+Tested on: NodeBB v1.10.1, v1.13.3, v1.15.3
 
 ## Contributing
 
