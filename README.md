@@ -9,8 +9,10 @@ This NodeBB plugin allows embedding Google Forms in forum posts. 📝
 
 ## Installation
 
+Add the plugin through NodeBB's plugin manager, or:
+
 ```
-npm install madhavarshney/nodebb-plugin-google-forms
+npm install nodebb-plugin-google-forms
 ```
 
 ## Usage
